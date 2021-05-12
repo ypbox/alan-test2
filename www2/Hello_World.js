@@ -16,7 +16,7 @@ intent('Hello world', p => {
 // Try activating the button in the bottom right corner and saying "Hello world".
 // You will hear "Hi there" as a response. Exactly as we defined previously.
 // This was a voice interaction. You can also use the Debugging Chat, try typing in the same command - the result should be the same.
-
+//
 // You can use multiple patterns (https://alan.app/docs/server-api/patterns) in a single intent.
 // This will allow you to have the same response played or action taken for different user inputs.
 //123
