@@ -11,7 +11,7 @@
 
 intent('Hello world', p => {
     p.play('Hi there');
-});//.
+});//...
 
 // Try activating the button in the bottom right corner and saying "Hello world".
 // You will hear "Hi there" as a response. Exactly as we defined previously.
