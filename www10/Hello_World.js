@@ -20,7 +20,8 @@ intent('Hello world', p => {
 // You can use multiple patterns (https://alan.app/docs/server-api/patterns) in a single intent.
 // This will allow you to have the same response played or action taken for different user inputs.
 //123
-intent('Who\'s there',
+intent(
+    'Who\'s there',
     'What\'s your name',
     p => {
         p.play(
@@ -28,7 +29,7 @@ intent('Who\'s there',
             'It\'s Alan.',
         );
     },
-); 
+);
 
 // Try: "Who's there" or "What's your name".
 // Notice that the matched intent is different this time (the input bubble has a link to line number 23).
