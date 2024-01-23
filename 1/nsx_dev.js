@@ -8,7 +8,7 @@
 
 
 let userName = `admin`;
-let password = `Admin!23Admin`;
+let password = `Admin!23Admin`; 
 let nsxManaggerUrl = `https://66.170.99.128:32801`;
 let domain = `default`;
 
